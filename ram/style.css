@@ -1,0 +1,363 @@
+
+.main{
+
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(istockphoto-495508534-2048x2048.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1300px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 300px;
+    float: left;
+    height: 70px;
+}
+    
+.logo{
+    color: rgb(67, 206, 67);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: rgb(255, 0, 43);
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 13px;
+    color: aliceblue;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: red;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn :focus{
+    outline: none;
+}
+.srch :focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height:auto;
+    margin: auto;
+    color: aliceblue;
+    position: relative;
+}
+.content  p{
+    color: rgb(255, 255, 255);
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 150px;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    border: none;
+    background: rgb(88, 226, 239);
+    margin-bottom: 10px;
+    margin-left: 250px;
+    font-size: 18px;
+    border-radius: 100px;
+    cursor: pointer;
+    
+}
+.content .cn{
+    text-decoration: none;
+    color: black;
+    transition: 0s ease;
+}
+.cn:hover{
+    background-color: rgb(245, 38, 38);
+
+}
+.content span{
+    color: red;
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height: 435px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 20px;
+    left: 980px;
+    border-radius: 10px;
+    padding: 20px;
+ 
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 32px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: white0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.btrn{
+    width: 240px;
+    height: 40px;
+    background: rgb(237, 20, 20);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0s ease;
+}
+.btrn:hover{
+    background-color: rgb(14, 136, 36);
+}
+.btrn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 15px;
+    text-align: center;
+
+}
+.form .link a{
+    text-decoration: none;
+    color: orangered;
+
+}
+.form p{
+    text-align: center;
+}
+
+.liw{
+    padding: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+.icon ion-icon{
+    color: rgb(0, 234, 255);
+    font-size: 30px;
+    padding-left: 13px;
+    transition: 0.3s ease;
+}
+.icon ion-icon:hover{
+    color: #ff7200;
+}
+
+@media screen and (max-width:1200px){
+    /*hole screen*/
+    .navbar{
+        width: 100%;
+        height: 10px;
+    }
+    ul{
+        margin-left: 30px;
+    }
+    ul li{
+        margin-left: 60px;
+
+    }
+    ul li a{
+        font-size: 1.6vw;
+    }
+    .search{
+        margin-top: 3px;
+        margin-left: 500px;
+    }
+    .srch{
+        height: 40px;
+        width: 190px;
+        font-size: 14px;
+
+    }
+    .btn{
+        height: 40px;
+        width: 80px;
+    }
+    .content{
+        width: 100%;
+
+    }
+    .content h1, .content span{
+        font-size: 4.5vw;
+
+    }
+    .content .par{
+        width: 90%;
+        font-size: 1.5vw;
+
+    }
+    .content .cn{
+        width: 13%;
+        height: 3.5vw;
+        font-size: 1.8vw;
+    }
+    .content a{
+        font-size: 1.6vw;
+    }
+}
+
+@media screen and (max-width:1170px) {
+    /* for login box*/
+    .main{
+        padding-left: 20px;
+        height: 180vh;
+    }
+    .form{
+        width: 250px;
+        height: 435px;
+        background: rgb(0, 0, 0);
+        position: absolute;
+        top: 380px;
+        left: 90px;
+        border-radius: 10px;
+        padding: 20px;
+     
+    }
+    .form input{
+        width: 240px;
+        height: 35px;
+        background: transparent;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: white;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+        font-family: sans-serif;
+    }
+    .btn a{
+        font-size: 16px;
+    }
+    
+    .form .link{
+        font-size: 16px;
+    }
+   
+    
+}
+@media screen and (max-width:830px) {
+    /* table*/
+    .content{
+        margin-top: 120px;
+        width: 80%;
+        margin-left: 40px;
+    }
+    .content h1, .content span{
+        font-size: 6vw;
+
+    }
+    .content .par{
+        width: 90%;
+        font-size: 1.8vw;
+    }
+    .content .cn{
+        width: 15%;
+        height: 4.5vw;
+        font-size: 2vw;
+    }
+    .content a{
+        font-size: 2vw;
+    }
+   
+}
